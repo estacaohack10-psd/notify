@@ -1,6 +1,7 @@
 body{
   margin: 0;
   padding: 0;
+  font-family: 'Roboto', sans-serif;
 }
 
 header > section{
@@ -25,7 +26,7 @@ header > section{
   font-size: 40px;
   padding: 27px 0px 0px 0px;
 }
-.parágrafo > p{
+.paragrafo > p{
   font-family: 'Roboto', sans-serif;
   color: white;
   font-size: 25px;
@@ -69,6 +70,45 @@ header > section{
   margin-right: 14px;
 }
 
-icones:hover{
+.icones >div:hover{
   background-color: rgb(16, 180, 16);
+}
+
+.servicos{
+  display: flex;
+
+}
+
+.card-sevicos{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+
+.img-servicos{
+  display: flex;
+  align-items: center;
+  border-radius: 100%;
+  background-color: rgb(16, 180, 16);
+  justify-content: space-around;
+  width: 80px;
+  height: 80px;
+  margin-right: 14px;
+}
+
+.video-email{
+  border: 2px solid gray;
+  background-color: lightgray;
+  display: flex;
+  align-content: space-around;
+}
+
+.newslettler{
+  padding: 123px 0px 0px 0px;
+  
+}
+
+.video{
+
 }
