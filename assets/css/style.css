@@ -31,6 +31,7 @@ header > section{
   color: white;
   font-size: 25px;
   margin-top: -25px;
+  padding-right: 150px;
 
 }
 .geral{
@@ -42,15 +43,15 @@ header > section{
   display: flex;
 }
 .mao > img{
-  width: 348px;
-  padding: 120px 0 0 0;
+  width: 440px;
+  padding: 16px 225px 0px 0;
 }
 
 .caixa-texto-mae{
   display: flex;
   justify-content: center;
   flex-direction: column;
-  padding: 0 95px 0px 168px;
+  padding: 0 0 180px 325px;
 }
 
 .icones{
@@ -87,6 +88,7 @@ header > section{
   align-items: center;
   justify-content: center;
   flex-direction: row;
+  padding: 0 130px 0 130px;
 }
 
 
@@ -149,4 +151,22 @@ header > section{
   width: 270px;
   padding-left: 15px; 
   margin-right: -15px;
+}
+
+.texto{
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.texto > p{
+  padding: 55px 350px 2px 350px;
+  margin: 0;
+}
+.texto > h2{
+  padding: 20px 260px 32px 260px;
+  margin: 0;
+  font-size: 18px;
 }
