@@ -153,6 +153,8 @@ header > section{
   margin-right: -15px;
 }
 
+
+
 .texto{
   display: flex;
   text-align: center;
@@ -169,4 +171,28 @@ header > section{
   padding: 20px 260px 32px 260px;
   margin: 0;
   font-size: 18px;
+}
+
+.team{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+  text-align: center;
+}
+
+footer > div > ul{
+  display: flex;
+  list-style: none;
+
+}
+
+footer > div > ul > li{
+  padding: 30px;
+}
+
+footer{
+  display: flex;
+  justify-content:  center;
+  background-color:  rgb(238, 236, 236);
 }
